@@ -5,16 +5,38 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WkHtmlToXDotNet", "WkHtmlToXDotNet\WkHtmlToXDotNet.vcxproj", "{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimmysExampleConsoleApp", "TimmysExampleConsoleApp\TimmysExampleConsoleApp.csproj", "{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Debug|Win32.Build.0 = Debug|Win32
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Release|Win32.ActiveCfg = Release|Win32
 		{D734EF73-EB47-47F5-B7DF-C4E57E55D3D6}.Release|Win32.Build.0 = Release|Win32
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83B08C5B-3C90-4ED8-9CDF-5CF79930F6C9}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
