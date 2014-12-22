@@ -6,3 +6,6 @@ If you've seen the great "WkHtmlToPdf" tool (http://wkhtmltopdf.org/), but wante
 * HtmlToXConverter.ConvertToPdf
 * HtmlToXConverter.ConvertToPng
 
+This is what your code will look like:
+
+    var pdfData = HtmlToXConverter.ConvertToPdf("<h1>SOO COOL!</h1>");
